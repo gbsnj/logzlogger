@@ -221,7 +221,7 @@ class Logger
     private function getClient()
     {
         return new \GuzzleHttp\Client([
-            'base_uri' => 'https://listener.logz.io:8071'
+            'base_uri' => 'https://listener-eu.logz.io:8071'
         ]);
     }
 
